@@ -1,0 +1,225 @@
+/*  COLOR DE FONDO O COLOR DE LA PAGINA A USAR A FUTURO
+body{
+    background-color: #cca9dd;
+    
+}
+*/
+
+
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+ 
+/* --------*/
+
+/* MAIN STYLING */
+
+p{
+    line-height: 1.7em;
+    margin: 10px 0;
+}
+
+
+/* BODY */
+
+body{
+    background-color: #f0f6ef;
+}
+
+/* DISEÑO DEL TITULO */
+
+#titulo1{
+    font-family: 'Explora';
+    font-size: 40px;
+    color: #F0E68C;
+    text-align: center;
+}
+ /* COMIENZO DE DISEÑO DEL HEADER "MENU FIJO" */
+header{
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    transition: 0.7s;
+    padding: 30px 20px;   
+}
+
+header.abajo{
+    background: #cca9dd;
+    padding: 15px 20px;
+}
+
+header .logo{
+    position: relative;
+    color: #F0E68C;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    position: relative;
+    font-family:  Helvetica;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff !important;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+
+.zona1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./imagenes/salon_fondo.png);
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+header.abajo ul li a{
+    color: #F0E68C !important;
+    font-weight: bold;
+
+}
+
+/* COMIENZO DE DISEÑO ZONA 2 "DEPI INFO" */
+
+.zona2{
+    margin-top: 10px;
+}
+
+.zona2 h1{
+    text-align: center;
+    font-family: Didact Gothic;
+    padding-top: 100px;
+}
+.zona div.img1{
+    position: relative;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 142px 0px 0px;
+    width: 5%;
+    height: 10vh;
+}
+
+.imagenes{
+    display: flex;
+    
+}
+
+.zona2 img{
+    position: relative;  
+    width: 90%;
+    border: black 1px solid;
+}
+
+.zona2 h6{
+    font-size: 20px;
+}
+
+.zona2 p{
+    font-size: 20px;
+}
+
+/* COMIENZO DE DISEÑO ZONA3 "TRATAMIENTO" */
+
+.zona3{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-image: url(./imagenes/fondo1.jpg);
+    background-size: cover;
+    background-position: center center;    
+}
+
+.zona3 img{
+    position: relative;  
+    width: 80%;
+    border: black 1px solid;
+}
+
+section.zona3 h1{
+    text-align: center;
+    font-family: Didact Gothic;
+    padding-top: 100px;
+    
+}
+
+/* COMIENZO DE DISEÑO ZONA 4 "CONTACTANOS" */
+
+.zona4{
+    background-image: url(./imagenes/fondo_escurezido.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+.zona4 h1{
+    text-align: center;
+    color: white;
+    font-family: Didact Gothic;
+    padding-top: 100px;
+    
+}
+
+.mapa{
+    position: absolute;
+    display: flex;
+    width: 45%;
+    height: 45vh;
+    padding-left: 30px;
+}
+
+.datos{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding-top: 10px;
+}
+
+.zona4 p{
+    color: white;
+    text-align: center;
+    text-align: justify;
+    
+}
+
+/* COMIENZO DE DISEÑO ZONA 5 "DONDE ESTAMOS" */
+/*
+.zona5 h1{    
+    text-align: center;
+    font-family: Didact Gothic;
+    padding-top: 80px;
+}
+*/
